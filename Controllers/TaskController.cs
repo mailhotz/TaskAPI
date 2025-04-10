@@ -67,9 +67,6 @@ namespace TaskAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Task>> CreateTask(TaskItem taskItem)
         {
-            //Note: This is bad and would likely be fixed by using GUID's instead
-            taskItem.Id = Id;
-            Id++;
             _context.TaskItems.Add(taskItem);
             await _context.SaveChangesAsync();
             
