@@ -4,7 +4,7 @@ https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspne
 
 # Description
 As a Task manager, I need a system to maintain a list of tasks that I 
-can assign to dierent people. This system needs to have several features. 
+can assign to different people. This system needs to have several features. 
 There should be an API that will allow me to manage tasks (creating, editing, 
 and deleting). There should also be a microservice that will send an e-mail 
 when an item has been created and/or if the task is overdue.
